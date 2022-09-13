@@ -25,6 +25,6 @@ public class SwaggerConfig {
 
         return new Docket(DocumentationType.SWAGGER_2)
 
-                .apiInfo(new ApiInfo("Web-API For Words Count Occurrence", "In text analysis, one is often interested in which words occur most" + "often in a mass of text. To make it easier for those who work with" + "this, your task is to create a small Web-API that takes a mass of" + "text as input and returns the 10 most frequent words along with" + "the frequency.\n", "0.0.1", "", new Contact("Prashant Borkar", "https://prashantborkar.io", "pfborkar@gmail.com"), "Logical Support by Prashant", "", vendorExtensions)).select().apis(RequestHandlerSelectors.basePackage("com.assignment.cgi")).paths(PathSelectors.any()).build();
+                .apiInfo(new ApiInfo("Web-API For Words Count Occurrence", "In text analysis, one is often interested in which words occur most" + "often in a mass of text. To make it easier for those who work with" + "this, A small Web-API that takes a mass of" + "text as input and returns the 10 most frequent words along with" + "the frequency.\n", "0.0.1", "", new Contact("Prashant Borkar", "https://prashantborkar.io", "pfborkar@gmail.com"), "Logical Support by Prashant", "", vendorExtensions)).select().apis(RequestHandlerSelectors.basePackage("com.assignment.cgi")).paths(PathSelectors.any()).build();
     }
 }

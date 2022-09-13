@@ -21,7 +21,7 @@ public class RestAppController {
     }
 
 
-    @ApiOperation(value = "Get the String Word / Sentence / Song Lyrics, Returns the count of word occurrence.", notes = "One is often interested in which words occur most" + "often in a mass of text. To make it easier for those who work with" + "this, your task is to create a small Web-API that takes a mass of" + "text as input and returns the 10 most frequent words along with" + "the frequency. [By Using Text/Plain]", response = WordModel.class)
+    @ApiOperation(value = "Get the String Word / Sentence / Song Lyrics, Returns the count of word occurrence. [By Using Text/Plain]", notes = "One is often interested in which words occur most" + "often in a mass of text. To make it easier for those who work with" + "this, A small Web-API that takes a mass of" + "text as input and returns the 10 most frequent words along with" + "the frequency. [By Using Text/Plain]", response = WordModel.class)
     @RequestMapping(method = RequestMethod.POST, produces = {MediaType.TEXT_PLAIN_VALUE}, consumes = {MediaType.TEXT_PLAIN_VALUE}, value = "/count")
     @ResponseBody
     public String getCount(@RequestBody String word) {
@@ -38,7 +38,7 @@ public class RestAppController {
         return json;
     }
 
-    @ApiOperation(value = "Get the String Word / Sentence / Song Lyrics, Returns the count of word occurrence.", notes = "One is often interested in which words occur most" + "often in a mass of text. To make it easier for those who work with" + "this, your task is to create a small Web-API that takes a mass of" + "text as input and returns the 10 most frequent words along with" + "the frequency.[By Using Json]", response = WordModel.class)
+    @ApiOperation(value = "Get the String Word / Sentence / Song Lyrics, Returns the count of word occurrence. [By Using Json]", notes = "One is often interested in which words occur most" + "often in a mass of text. To make it easier for those who work with" + "this, A small Web-API that takes a mass of" + "text as input and returns the 10 most frequent words along with" + "the frequency.[By Using Json]", response = WordModel.class)
     @RequestMapping(method = RequestMethod.POST, produces = {MediaType.APPLICATION_JSON_VALUE}, consumes = {MediaType.APPLICATION_JSON_VALUE}, value = "/countJson")
     @ResponseBody
     public String getCountJson(@RequestBody WordModel request) {
