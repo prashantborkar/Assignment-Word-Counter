@@ -6,6 +6,17 @@ this, Created a small Web-API that takes a mass of
 text as input and returns the 10 most frequent words along with
 the frequency.
 
+
+
+-----------------> Technical Specification <----------------- 
+
+Language: Java 8+
+Framework: SpringBoot 
+Web-API: REST Architecture
+API Documentation: Swagger
+
+
+
 -----------------> Steps to RUN the application <----------------- 
 
 1. Import Project in any IDE and Build Maven as below command.
