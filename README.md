@@ -10,10 +10,10 @@ the frequency.
 
 -----------------> Technical Specification <----------------- 
 
-Language: Java 8+
-Framework: SpringBoot 
-Web-API: REST Architecture
-API Documentation: Swagger
+- Language: Java 8+
+- Framework: SpringBoot 
+- Web-API: REST Architecture
+- API Documentation: Swagger
 
 
 
