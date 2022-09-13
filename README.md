@@ -14,6 +14,8 @@ the frequency.
 - Framework: SpringBoot 
 - Web-API: REST Architecture
 - API Documentation: Swagger
+- Maven Project
+- Postman Tool
 
 
 
